@@ -1,0 +1,69 @@
+body {
+    background-image: url("background_img.jpg");
+   
+}
+
+#game_name {
+    display: block;
+    background-color: orange;
+    color:white;
+    width: fit-content;
+    height: fit-content;
+    position: relative; 
+}
+#game_rules {
+  width: 400px;
+  height: 400px;
+  padding: 4px;
+  margin-bottom: 10px;
+  color: green;
+  background-color: rgb(243, 200, 200);
+}
+#score_title{
+    display: block;
+    color:white;
+    background-color: darkcyan;
+    width: 200px;
+    height: 25px;
+    text-align: left;
+    margin-left: 4px;
+}
+#crystal_img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline;
+}
+
+#score {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: darkcyan  ;
+    color:white; 
+    margin-top: 10px;
+    font-size: 50px;
+}
+#score:hover {
+    color:red;
+}
+#random_number {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: green  ;
+    color:purple; 
+    margin-top: 10px;
+    font-size: 40px;   
+}
+#wins{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 255, 255, 0.952);
+}
